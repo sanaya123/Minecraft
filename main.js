@@ -32,7 +32,7 @@ function upload_image(get_image){
 window.addEventListener("keydown", mykeydown)
 
 function mykeydown(e){
-    keyPressed=e.keycode
+    keyPressed=e.keyCode
     if(e.shiftKey == true && keyPressed == "80"){
         block_image_height=block_image_height+10
         block_image_width = block_image_width+10
